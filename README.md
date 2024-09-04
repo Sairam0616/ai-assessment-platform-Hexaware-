@@ -47,7 +47,51 @@ The functional architecture outlines how the system components interact to deliv
 git clone https://github.com/your-username/ai-assessment-platform.git
 cd ai-assessment-platform
 cd backend
+```
+### 2. Set Up the Backend
+1.Navigate to the backend directory:
+```bash
+cd backend
+```
+2.Install dependencies using Poetry:
+```bash
+poetry install
+```
+3.Create a .env file and set up environment variables:
+```bash
+SECRET_KEY=your_secret_key
+DATABASE_URL=mongodb://localhost:27017/app_db
+```
+4.Start the FastAPI server:
+```bash
+uvicorn app.main:app --reload
+```
+### 3. Set Up the Frontend
+1.Navigate to the frontend directory:
+```bash
+cd ../frontend
+```
+2.Install dependencies using npm:
+```bash
+npm install
+```
+3.Start the Next.js development server:
+```bash
+npm run dev
+```
+### 4. Access the Application
+Frontend: http://localhost:3000
+Backend (API): http://localhost:8000
 
+### API Documentation
+The backend API is documented using OpenAPI. You can access the interactive API docs by navigating to http://localhost:8000/docs when the backend server is running.
 
+### Contributing
+We welcome contributions to the AI-Assessment Platform. Please follow these steps:
 
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
 
