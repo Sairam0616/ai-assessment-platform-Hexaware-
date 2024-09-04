@@ -18,7 +18,8 @@ The AI-Assessment Platform is a scalable and secure web application designed to 
 
 ### System Architecture Diagram
 
-![System Architecture Diagram](link_to_system_architecture_diagram.png)
+![System Architecture Diagram](https://github.com/user-attachments/assets/c2a4b0a5-75f4-4a5e-88e5-44b19d43c161)
+
 
 The system architecture of the AI-Assessment Platform includes:
 
