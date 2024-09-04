@@ -1,4 +1,4 @@
-# AI-Assessment Platform Wiki
+# AI-Assessment Platform 
 
 ## Overview
 
